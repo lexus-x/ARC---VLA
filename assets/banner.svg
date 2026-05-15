@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a1a3a;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#f7c948"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.08">
+    <line x1="0" y1="50" x2="800" y2="50" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#fff" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="800" y2="150" stroke="#fff" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="200" stroke="#fff" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="200" stroke="#fff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="200" stroke="#fff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Token visualization: full set -->
+  <g transform="translate(30, 40)">
+    <text x="0" y="0" fill="#888" font-family="monospace" font-size="10">N = 196 tokens</text>
+    <g transform="translate(0, 10)">
+      <rect x="0" y="0" width="6" height="6" fill="#ff6b35" opacity="0.9" rx="1"/>
+      <rect x="8" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="16" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="24" y="0" width="6" height="6" fill="#ff6b35" opacity="0.9" rx="1"/>
+      <rect x="32" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="40" y="0" width="6" height="6" fill="#ff6b35" opacity="0.9" rx="1"/>
+      <rect x="48" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="56" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="64" y="0" width="6" height="6" fill="#ff6b35" opacity="0.9" rx="1"/>
+      <rect x="72" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="80" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="88" y="0" width="6" height="6" fill="#ff6b35" opacity="0.9" rx="1"/>
+      <rect x="96" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="104" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="112" y="0" width="6" height="6" fill="#444" opacity="0.3" rx="1"/>
+      <rect x="120" y="0" width="6" height="6" fill="#ff6b35" opacity="0.9" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- Arrow -->
+  <g transform="translate(175, 75)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#f7c948" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="10" y="-8" fill="#f7c948" font-family="monospace" font-size="9">APEX</text>
+  </g>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#f7c948"/>
+    </marker>
+  </defs>
+  
+  <!-- Selected tokens -->
+  <g transform="translate(230, 40)">
+    <text x="0" y="0" fill="#888" font-family="monospace" font-size="10">K = 50 selected</text>
+    <g transform="translate(0, 10)">
+      <rect x="0" y="0" width="8" height="8" fill="#ff6b35" rx="1"/>
+      <rect x="12" y="0" width="8" height="8" fill="#ff6b35" rx="1"/>
+      <rect x="24" y="0" width="8" height="8" fill="#ff6b35" rx="1"/>
+      <rect x="36" y="0" width="8" height="8" fill="#ff6b35" rx="1"/>
+      <rect x="48" y="0" width="8" height="8" fill="#ff6b35" rx="1"/>
+      <rect x="60" y="0" width="8" height="8" fill="#ff6b35" rx="1"/>
+      <rect x="72" y="0" width="8" height="8" fill="#ff6b35" rx="1"/>
+      <rect x="84" y="0" width="8" height="8" fill="#ff6b35" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="90" text-anchor="middle" fill="#fff" font-family="system-ui, sans-serif" font-size="36" font-weight="bold">
+    APEX
+  </text>
+  <text x="400" y="118" text-anchor="middle" fill="url(#accent)" font-family="system-ui, sans-serif" font-size="14" font-weight="600">
+    Adaptive Pruning and Extraction
+  </text>
+  <text x="400" y="140" text-anchor="middle" fill="#888" font-family="system-ui, sans-serif" font-size="12">
+    for Vision-Language-Action Models
+  </text>
+  
+  <!-- Stats -->
+  <g transform="translate(400, 165)">
+    <text x="-180" y="0" fill="#ff6b35" font-family="monospace" font-size="11" font-weight="bold">~33K params</text>
+    <text x="-60" y="0" fill="#f7c948" font-family="monospace" font-size="11" font-weight="bold">1.8x faster</text>
+    <text x="50" y="0" fill="#4ecdc4" font-family="monospace" font-size="11" font-weight="bold">+2-5% accuracy</text>
+    <text x="170" y="0" fill="#888" font-family="monospace" font-size="11">100% frozen</text>
+  </g>
+</svg>
