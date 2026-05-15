@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="apex-vla",
-    version="0.1.0",
-    description="APEX: Adaptive Pruning and Extraction for Vision-Language-Action Models",
+    name="arc-vla",
+    version="0.2.0",
+    description="ARC-VLA: APEX + AEGIS modules for Vision-Language-Action Models",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="lexus-x",
