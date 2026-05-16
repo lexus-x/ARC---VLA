@@ -1,0 +1,99 @@
+{
+  "in_distribution": {
+    "baseline": {
+      "reach-easy": 1.0,
+      "reach-hard": 1.0,
+      "push-straight": 1.0,
+      "push-around": 1.0,
+      "pick-place": 1.0,
+      "door-open": 1.0,
+      "insert-peg": 0.97,
+      "rotate-handle": 1.0,
+      "stack-blocks": 0.795,
+      "place-cup": 0.99,
+      "average": 0.9755
+    },
+    "aegis": {
+      "reach-easy": 1.0,
+      "reach-hard": 0.72,
+      "push-straight": 1.0,
+      "push-around": 1.0,
+      "pick-place": 1.0,
+      "door-open": 1.0,
+      "insert-peg": 0.96,
+      "rotate-handle": 0.995,
+      "stack-blocks": 0.55,
+      "place-cup": 0.985,
+      "average": 0.921
+    },
+    "delta": -0.05449999999999999
+  },
+  "mild_shift": {
+    "baseline": {
+      "reach-easy": 0.99,
+      "reach-hard": 1.0,
+      "push-straight": 1.0,
+      "push-around": 1.0,
+      "pick-place": 1.0,
+      "door-open": 1.0,
+      "insert-peg": 0.955,
+      "rotate-handle": 0.99,
+      "stack-blocks": 0.785,
+      "place-cup": 1.0,
+      "average": 0.9720000000000001
+    },
+    "aegis": {
+      "reach-easy": 1.0,
+      "reach-hard": 0.765,
+      "push-straight": 1.0,
+      "push-around": 1.0,
+      "pick-place": 1.0,
+      "door-open": 0.995,
+      "insert-peg": 0.95,
+      "rotate-handle": 0.975,
+      "stack-blocks": 0.545,
+      "place-cup": 0.955,
+      "average": 0.9185000000000001
+    },
+    "delta": -0.05349999999999999
+  },
+  "strong_shift": {
+    "baseline": {
+      "reach-easy": 1.0,
+      "reach-hard": 1.0,
+      "push-straight": 1.0,
+      "push-around": 1.0,
+      "pick-place": 1.0,
+      "door-open": 1.0,
+      "insert-peg": 0.945,
+      "rotate-handle": 0.995,
+      "stack-blocks": 0.8,
+      "place-cup": 0.99,
+      "average": 0.9730000000000001
+    },
+    "aegis": {
+      "reach-easy": 0.995,
+      "reach-hard": 0.725,
+      "push-straight": 0.995,
+      "push-around": 0.995,
+      "pick-place": 1.0,
+      "door-open": 0.98,
+      "insert-peg": 0.87,
+      "rotate-handle": 0.975,
+      "stack-blocks": 0.555,
+      "place-cup": 0.93,
+      "average": 0.9019999999999999
+    },
+    "delta": -0.07100000000000017
+  },
+  "params": {
+    "baseline": 166276,
+    "aegis": {
+      "geo_tokens": 200320,
+      "criticality": 92161,
+      "energy_net": 316161,
+      "amortised": 166276,
+      "total": 774918
+    }
+  }
+}

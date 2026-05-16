@@ -1,0 +1,43 @@
+{
+  "bl_mlp": {
+    "bypass-2way": 1.0,
+    "bypass-3way": 0.36,
+    "funnel-2way": 1.0,
+    "funnel-3way": 0.415,
+    "grasp-flip": 1.0,
+    "reach-around": 1.0,
+    "slide-lr": 1.0,
+    "pivot-2way": 1.0,
+    "arc-reach": 1.0,
+    "squeeze-2way": 1.0,
+    "average": 0.8775000000000001
+  },
+  "bl_gmm": {
+    "bypass-2way": 1.0,
+    "bypass-3way": 0.35,
+    "funnel-2way": 1.0,
+    "funnel-3way": 0.385,
+    "grasp-flip": 1.0,
+    "reach-around": 1.0,
+    "slide-lr": 1.0,
+    "pivot-2way": 1.0,
+    "arc-reach": 1.0,
+    "squeeze-2way": 1.0,
+    "average": 0.8734999999999999
+  },
+  "aegis": {
+    "bypass-2way": 1.0,
+    "bypass-3way": 0.31,
+    "funnel-2way": 0.995,
+    "funnel-3way": 0.325,
+    "grasp-flip": 1.0,
+    "reach-around": 1.0,
+    "slide-lr": 0.995,
+    "pivot-2way": 1.0,
+    "arc-reach": 1.0,
+    "squeeze-2way": 0.985,
+    "average": 0.861
+  },
+  "delta_mlp": -0.01650000000000007,
+  "delta_gmm": -0.012499999999999956
+}
